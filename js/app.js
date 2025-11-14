@@ -15,7 +15,7 @@ const getApiBaseUrl = () => {
     }
 
     // Production (GitHub Pages, Netlify, Cloudflare, etc.)
-    return "https://mohammedshahal.pythonanywhere.com/api";
+    return "https://mohammedshahal.pythonanywhere.com/api/";
 };
 
 const API_BASE_URL = getApiBaseUrl();
